@@ -31,20 +31,20 @@
     height: auto;
     float: left;
     position: relative;
-    background-color: #eff5f9;
+    background: #ddedfc;
     background: linear-gradient(
         90deg,
-        rgba(207, 231, 252, 1) 0%,
-        rgba(255, 255, 255, 1) 50%,
-        rgba(207, 231, 252, 1) 100%
+        rgba(221, 237, 252, 1) 0%,
+        rgba(240, 246, 251, 1) 50%,
+        rgba(222, 238, 253, 1) 100%
     );
     border-radius: 40px 40px 0px 0px;
 }
 #header .container {
-    padding: 40px 0px;
+    padding: 30px 0px;
 }
 #header .logo {
-    width: 15%;
+    width: 20%;
     height: auto;
     float: left;
     position: relative;
@@ -66,6 +66,7 @@
     overflow: hidden;
     border-radius: 30px;
     background-color: #ffffff;
+    padding: 0px 50px 0px 50px;
 }
 .nav-section ul li {
     float: left;
@@ -107,21 +108,25 @@
     height: auto;
     background-color: transparent;
     text-align: center;
-    color: blue;
+    color: black;
     font-size: 20px;
     border-radius: 200px;
     padding: 5px;
+}
+.contact-section .button-1:hover {
+    color: #2b6cf5;
 }
 .hero-section {
     width: 100%;
     height: auto;
     float: left;
     position: relative;
+    background: #ddedfc;
     background: linear-gradient(
         90deg,
-        rgba(207, 231, 252, 1) 0%,
-        rgba(255, 255, 255, 1) 50%,
-        rgba(207, 231, 252, 1) 100%
+        rgba(221, 237, 252, 1) 0%,
+        rgba(240, 246, 251, 1) 50%,
+        rgba(222, 238, 253, 1) 100%
     );
     border-radius: 0px 0px 40px 40px;
 }
@@ -369,15 +374,13 @@
     float: left;
     position: relative;
     border-radius: 30px;
-    padding: 50px;
-    margin-top: 50px;
+    padding: 20px;
 }
 .whyChose-section .whyChose-content {
     width: 100%;
-    min-height: 760px;
+    height: auto;
     float: left;
     position: relative;
-
     padding: 10px 20px 150px 150px;
     border-radius: 30px;
     background-image: url(img/bedoctor-section-bg3.jpg);
@@ -452,7 +455,7 @@
     height: auto;
     float: left;
     position: relative;
-    padding: 0px 65px 65px 65px;
+    padding: 0px 80px 80px 80px;
 }
 .visit-section .visit-img img {
     width: 100%;
@@ -473,7 +476,7 @@
         rgba(204, 230, 253, 1) 100%
     );
     text-align: center;
-    padding: 100px 20px 100px 20px;
+    padding: 80px;
 }
 .visit-description .location-icon {
     width: 80px;
