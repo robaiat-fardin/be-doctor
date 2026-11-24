@@ -58,7 +58,7 @@
     height: auto;
     float: left;
     position: relative;
-    padding: 0px 130px;
+    padding: 0px 40px;
 }
 .nav-section ul {
     float: left;
@@ -912,7 +912,6 @@ sub {
     float: left;
     position: relative;
     padding: 20px;
-    margin-left: 70px;
     text-align: center;
 }
 .footer-details .contact-me h5 {
